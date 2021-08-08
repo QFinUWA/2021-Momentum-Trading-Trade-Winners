@@ -16,3 +16,6 @@
 
 ## Missing From The Repo
 The repo is missing gemini_modules, ta-lib, and a data folder
+
+## Discord Webhook
+On the `#github` of the trading team Discord there's a webhook
