@@ -13,3 +13,6 @@ ta-lib
 
 #Isaac Ignore Files
 .python-version
+
+share
+kanes_strat.py

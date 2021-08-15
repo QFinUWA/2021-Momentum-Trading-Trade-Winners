@@ -105,8 +105,5 @@ def plotAlgorithm(lookback,startIndex,size,plotPrice,plotBuySell,plotPMA,plotVol
     plt.legend(handles=handles+handles1)
 
     plt.show() #graph it
-
-if __name__ == "__main__":
-    backtest.start(100, logic)
     backtest.results()
     backtest.chart()
