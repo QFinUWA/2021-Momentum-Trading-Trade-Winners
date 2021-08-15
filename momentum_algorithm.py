@@ -5,7 +5,7 @@ from talib.abstract import *
 from gemini_modules import engine 
 
 # read in data preserving dates
-df = pd.read_csv("data/USDT_XRP.csv", parse_dates=[0]) 
+df = pd.read_csv("data/USDT_DOGE.csv", parse_dates=[0]) 
 
 # initializes backtesting engine
 backtest = engine.backtest(df)
@@ -21,6 +21,7 @@ moving_av_lengths = {
 }
 
 # Flag :(
+CROSSED_OVER = True
 
 # DAYS IN A TRADING MONTH for RSI parameter
 RSI_HISTORY = 24
@@ -49,7 +50,11 @@ def rsi(df, periods=RSI_HISTORY, ema=True):
     return rsi
 
 
+CROSSED_OVER = False
+
 def logic(account, lookback):
+    global CROSSED_OVER
+
     try:
         # get the latest index
         today = len(lookback) -1
@@ -68,28 +73,22 @@ def logic(account, lookback):
             longterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['longterm']).mean()[today]            
 
             # see if longterm is low or it is high
-            # longterm_is_low  = (longterm_moving_average < shortterm_moving_average) and (longterm_moving_average < midterm_moving_average)
+            longterm_is_low  = (longterm_moving_average < shortterm_moving_average) and (longterm_moving_average < midterm_moving_average)
             longterm_is_high = (longterm_moving_average > shortterm_moving_average) and (longterm_moving_average > midterm_moving_average)
-
+            
             rsi_score = rsi(lookback)[today]
 
             # trading logic
-            if longterm_is_high:
-                # looking to buy
-                if (not_invested):
-                    # tredning upwards
-                    # ??? this condition reduces profits
+            if (not_invested):
+                if longterm_is_low:
                     if (shortterm_moving_average > midterm_moving_average):
                         account.enter_position('long', account.buying_power, lookback['close'][today])
 
-                # looking to sell when rsi goes up too high
-                # also check shortterm move average and stuff
-
-                # threshold rsi score of 60? Just for testing
-                elif rsi_score > 60:#(shortterm_moving_average < midterm_moving_average):
+            else:
+                if longterm_is_high or rsi_score > 65:
                     for position in account.positions:
-                                account.close_position(position, 1, lookback['close'][today]) 
-            
+                        account.close_position(position, 1, lookback['close'][today])
+
     except Exception as e:
         print(e)
 
@@ -127,27 +126,6 @@ def kanes_stuff(account, lookback):
     except Exception as e:
         print(e)
     pass  # Handles lookback errors in beginning of dataset
-
-# Is what you're asking that we ignore the trend of the initial momentum until it changes
-    print(df)
-
-    # the close prices
-    print(df["close"])
-
-    # the rolling window
-    print(df["close"].rolling(window=window).mean())
-
-    # the rolling window for today
-    print(df["close"].rolling(window=window).mean()[day])
-
-def rsitest():
-    # print(df)
-
-    day = 24
-    print("!!!")
-    print(rsi(df)[day])
-
-    exit()
 
 if __name__ == "__main__":
     backtest.start(100, logic)

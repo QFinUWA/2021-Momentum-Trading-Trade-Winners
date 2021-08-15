@@ -14,5 +14,7 @@ ta-lib
 #Isaac Ignore Files
 .python-version
 
+token.txt
+
 share
 kanes_strat.py
