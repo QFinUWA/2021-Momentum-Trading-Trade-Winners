@@ -20,9 +20,6 @@ moving_av_lengths = {
     'shortterm' : 9
 }
 
-# Flag :(
-CROSSED_OVER = True
-
 # DAYS IN A TRADING MONTH for RSI parameter
 RSI_HISTORY = 24
 def rsi(df, periods=RSI_HISTORY, ema=True):
@@ -49,12 +46,7 @@ def rsi(df, periods=RSI_HISTORY, ema=True):
     rsi = 100 - (100/(1 + rsi))
     return rsi
 
-
-CROSSED_OVER = False
-
 def logic(account, lookback):
-    global CROSSED_OVER
-
     try:
         # get the latest index
         today = len(lookback) -1
@@ -65,7 +57,7 @@ def logic(account, lookback):
         # start trading after all moving averages have started
         if (today > longest_lookback):
             # our logic starts here
-            not_invested = account.buying_power > 0
+            invested = account.buying_power <= 0
 
             # get the 3 moving averages (sorry I keep forgetting my keyboard is on the mic :') )
             shortterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['shortterm']).mean()[today]
@@ -79,7 +71,7 @@ def logic(account, lookback):
             rsi_score = rsi(lookback)[today]
 
             # trading logic
-            if (not_invested):
+            if (not invested):
                 if longterm_is_low:
                     if (shortterm_moving_average > midterm_moving_average):
                         account.enter_position('long', account.buying_power, lookback['close'][today])
