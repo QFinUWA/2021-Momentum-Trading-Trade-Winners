@@ -1,5 +1,6 @@
 import itertools
 import sys
+from math import comb
 from multiprocessing import Process
 
 import pandas as pd
@@ -19,9 +20,9 @@ backtest = engine.backtest(df)
 # lookback moving average lengths
 # longterm should not be less than RSI lookback length
 moving_av_lengths = { 
-    'longterm'  : 35, 
-    'midterm'   : 30,
-    'shortterm' : 25
+    'longterm'  : 15, 
+    'midterm'   : 10,
+    'shortterm' : 5
 }
 
 # Flags
@@ -139,34 +140,38 @@ def kanes_stuff(account, lookback):
     pass  # Handles lookback errors in beginning of dataset
 
 # mass testing function
-# if __name__ == "__main__":
-
-#     # define range to sweep
-#     vals = range(5, 55, 5)
-
-#     # force print to a txt file
-#     orig_stdout = sys.stdout
-#     with open("test.txt", "w") as f:
-#         sys.stdout = f
-
-#         # test all combinations
-#         for short, mid, long in itertools.combinations(vals, 3):
-            
-#             # reset global 
-#             moving_av_lengths = { 
-#                 'longterm'  : long, 
-#                 'midterm'   : mid,
-#                 'shortterm' : short
-#             }
-            
-#             print(f'\n({short}, {mid}, {long})')
-#             backtest.start(100, logic)
-#             backtest.results()
-#             sys.stdout
-
-#         sys.stdout = orig_stdout
-
 if __name__ == "__main__":
-    backtest.start(100, logic)
-    backtest.results()
-    backtest.chart()
+
+    # define range to sweep
+    vals = range(5, 55, 5)
+
+    # force print to a txt file
+    orig_stdout = sys.stdout
+    count = 0
+    total = comb(len(vals), 3)
+    with open("test.txt", "w") as f:
+        
+        # test all combinations
+        for short, mid, long in itertools.combinations(vals, 3):
+            sys.stdout = f
+            
+            # reset global 
+            moving_av_lengths = { 
+                'longterm'  : long, 
+                'midterm'   : mid,
+                'shortterm' : short
+            }
+            
+            print(f'\n({short}, {mid}, {long})')
+            backtest.start(100, logic)
+            backtest.results()
+            sys.stdout
+
+            sys.stdout = orig_stdout
+            count += 1
+            print(f'({short}, {mid}, {long}) ... ({count}/{total})')
+
+# if __name__ == "__main__":
+#     backtest.start(100, logic)
+#     backtest.results()
+#     backtest.chart()

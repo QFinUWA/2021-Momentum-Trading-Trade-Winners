@@ -11,6 +11,7 @@ with open('parse.txt', 'r') as f:
 
     tuple = ''
     profit = 0.0
+    trades = 0
 
     for line in lines:
         if '(' in line:
@@ -18,14 +19,12 @@ with open('parse.txt', 'r') as f:
 
         if 'Strategy' in line:
 
-            profit = float(line[15:-1])      
+            profit = float(line[15:-2])      
 
         if 'Sells' in line:
 
-            trades = line[15:-1]
+            trades = int(line[15:-1])
 
             df = df.append({'window sizes':tuple, 'profit':profit, 'trades': trades}, ignore_index=True)
 
-# string = 'Sells        : 349'
-# print(string[15:-2])
 df.to_csv('results.csv')
