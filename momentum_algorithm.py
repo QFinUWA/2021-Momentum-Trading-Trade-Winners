@@ -87,14 +87,14 @@ def logic(account, lookback):
             if longterm_is_high and not IN_FIRST_DIP:
                 if (not invested):
                     if (shortterm_moving_average > midterm_moving_average):
-                        account.buying_power = account.buying_power * 0.998
+                        # account.buying_power = account.buying_power * 0.998
                         account.enter_position('long', account.buying_power, lookback['close'][today])
                         IN_FIRST_DIP = True
 
                 else:                
                     for position in account.positions:
                         account.close_position(position, 1, lookback['close'][today])
-                        account.buying_power = account.buying_power * 0.998
+                        # account.buying_power = account.buying_power * 0.998
                         IN_FIRST_DIP = False
 
             if longterm_is_low:
