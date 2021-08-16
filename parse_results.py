@@ -34,5 +34,5 @@ with open('results-data/temp.txt', 'r') as f:
 
             df = df.append({'window sizes': rolling_tuple, 'RSI bound': rsi_tuple, 'profit':profit, 'trades': trades}, ignore_index=True)
 
-df.to_csv('results-data/results.csv')
+df.to_csv('results-data/RENAME-ME.csv')
 os.remove('results-data/temp.txt')

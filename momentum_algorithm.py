@@ -21,9 +21,9 @@ backtest = engine.backtest(df)
 # lookback moving average lengths
 # longterm should not be less than RSI lookback length
 moving_av_lengths = { 
-    'longterm'  : 35, 
+    'shortterm' : 25,   
     'midterm'   : 30,
-    'shortterm' : 25
+    'longterm'  : 35 
 }
 
 RSI_LOW = 15
@@ -110,87 +110,57 @@ def logic(account, lookback):
 
 # ------------------------------------[TESTING CODE BELOW]--------------------------------------------------------------------
 
-
-'''Algorithm function, lookback is a data frame parsed to function continuously until end of initial dataframe is reached.'''
-def kanes_stuff(account, lookback):
-    try:
-        # sets today to the index of the current day
-        today = len(lookback)-1
-
-        # skips the data until it has enough to look back on 
-        if(today > training_period): 
-            # takes today's price and volumn moving average
-            price_moving_average = lookback['close'].rolling(window=training_period).mean()[today]  # update PMA
-            volumn_moving_average = lookback['volume'].rolling(window=training_period).mean()[today]  # update VMA
-
-            if(lookback['close'][today] < price_moving_average):
-                if(lookback['volume'][today] > volumn_moving_average):
-
-                    # if the spare money to buy exists
-                    if(account.buying_power > 0):
-                        
-                        # spend all your money on buying
-                        account.enter_position('long', account.buying_power, lookback['close'][today])
-                        
-            elif(lookback['close'][today] > price_moving_average):
-                if(lookback['volume'][today] < volumn_moving_average):
-                    
-                    # sell all investments
-                    for position in account.positions:
-                            account.close_position(position, 1, lookback['close'][today]) 
-
-    except Exception as e:
-        print(e)
-    pass  # Handles lookback errors in beginning of dataset
-
 # mass testing function
-if __name__ == "__main__":
-
-    # define range to sweep
-    scale = 1
-    vals = scale*list(range(25, 40, 5))
-    # RSI
-    low_list = [15]
-    high_list = [65]
-
-    # force print to a txt file
-    orig_stdout = sys.stdout
-    count = 0
-    # total = comb(len(vals), 3)
-    total = len(low_list)*len(high_list)
-    with open("results-data/temp.txt", "w") as f:
-        
-        # test all combinations
-        for short, mid, long in itertools.combinations(vals, 3):
-            for low in low_list:
-                for high in high_list:
-                    t0 = time.time()
-                    sys.stdout = f
-                    
-                    # reset global 
-                    moving_av_lengths = { 
-                        'longterm'  : long, 
-                        'midterm'   : mid,
-                        'shortterm' : short
-                    }
-
-                    RSI_LOW = low
-                    RSI_HIGH = high
-                    
-                    print(f'\n({short}, {mid}, {long})')
-                    print(f'\n[{low}, {high}]')
-                    backtest.start(100, logic)
-                    backtest.results()
-                    t1 = time.time()
-                    sys.stdout
-
-                    sys.stdout = orig_stdout
-                    count += 1
-                    print(f'Rolling Averages:\t{short}, {mid}, {long}\nRSI:\t\t\t{low}-{high}\n{int(t1-t0)} secs, ({count}/{total})\n')
-    import parse_results
-    os.system('play -nq -t alsa synth {} sine {}'.format(0.5, 440))
-
 # if __name__ == "__main__":
-#     backtest.start(100, logic)
-#     backtest.results()
-#     backtest.chart()
+
+#     # define range to sweep
+#     scale = 1
+#     vals = range(25, 40, 5)
+#     vals = list(map(lambda x: x*scale, vals))
+
+#     # RSI
+#     low_list = [15]
+#     high_list = [65]
+
+#     # force print to a txt file
+#     orig_stdout = sys.stdout
+#     count = 0
+#     # total = comb(len(vals), 3)
+#     total = comb(len(vals),3)*len(low_list)*len(high_list)
+#     with open("results-data/temp.txt", "w") as f:
+        
+#         # test all combinations
+#         for short, mid, long in itertools.combinations(vals, 3):
+#             for low in low_list:
+#                 for high in high_list:
+#                     t0 = time.time()
+#                     sys.stdout = f
+                    
+#                     # reset global 
+#                     moving_av_lengths = { 
+#                         'longterm'  : long, 
+#                         'midterm'   : mid,
+#                         'shortterm' : short
+#                     }
+
+#                     RSI_LOW = low
+#                     RSI_HIGH = high
+                    
+#                     # do testing
+#                     print(f'\n({short}, {mid}, {long})')
+#                     print(f'\n[{low}, {high}]')
+#                     backtest.start(100, logic)
+#                     backtest.results()
+#                     t1 = time.time()
+#                     sys.stdout
+
+#                     sys.stdout = orig_stdout
+#                     count += 1
+#                     print(f'Rolling Averages:\t{short}, {mid}, {long}\nRSI:\t\t\t{low}-{high}\n{int(t1-t0)} secs, ({count}/{total})\n')
+#     import parse_results
+#     os.system('play -nq -t alsa synth {} sine {}'.format(0.5, 440))
+
+if __name__ == "__main__":
+    backtest.start(100, logic)
+    backtest.results()
+    backtest.chart()
