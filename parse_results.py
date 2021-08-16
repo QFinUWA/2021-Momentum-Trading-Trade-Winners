@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.DataFrame(columns=list(['window sizes', 'profit']))
+df = pd.DataFrame(columns=list(['window sizes', 'profit', 'trades']))
 
 # INTRUCTIONS - using the mass testing script produces results.txt,
 # change this to 'parse.txt' (So you don't accidentally override the output 
@@ -15,14 +15,17 @@ with open('parse.txt', 'r') as f:
     for line in lines:
         if '(' in line:
             tuple = line[1:-2]
-            print(line)
 
         if 'Strategy' in line:
 
-            profit = float(line[15:19])
+            profit = float(line[15:-1])      
 
-            print(profit)
+        if 'Sells' in line:
 
-            df = df.append({'window sizes':tuple, 'profit':profit}, ignore_index=True)
+            trades = line[15:-1]
 
-df.to_csv('results.txt')
+            df = df.append({'window sizes':tuple, 'profit':profit, 'trades': trades}, ignore_index=True)
+
+# string = 'Sells        : 349'
+# print(string[15:-2])
+df.to_csv('results.csv')
