@@ -10,11 +10,15 @@ lib64
 pyvenv.cfg
 QFin PowerPoint Momentum Trading.pptx
 ta-lib
+.vscode
 
-#Isaac Ignore Files
+#Peronal Ignore Files
 .python-version
-
 token.txt
-
 share
 kanes_strat.py
+important_bash_command.txt
+momentum_algorithm_save.py
+results.csv
+parse.txt
+

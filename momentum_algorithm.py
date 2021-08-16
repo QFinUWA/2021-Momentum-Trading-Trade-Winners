@@ -1,11 +1,14 @@
+import itertools
+import sys
+
 import pandas as pd
 from talib.abstract import *
 
 # local imports
-from gemini_modules import engine 
+from gemini_modules import engine
 
 # read in data preserving dates
-df = pd.read_csv("data/USDT_DOGE.csv", parse_dates=[0]) 
+df = pd.read_csv("data/USDT_LTC.csv", parse_dates=[0]) 
 
 # initializes backtesting engine
 backtest = engine.backtest(df)
@@ -15,10 +18,13 @@ backtest = engine.backtest(df)
 # lookback moving average lengths
 # longterm should not be less than RSI lookback length
 moving_av_lengths = { 
-    'longterm'  : 30, 
-    'midterm'   : 20,
-    'shortterm' : 9
+    'longterm'  : 35, 
+    'midterm'   : 30,
+    'shortterm' : 25
 }
+
+# Flags
+IN_FIRST_DIP = False
 
 # DAYS IN A TRADING MONTH for RSI parameter
 RSI_HISTORY = 24
@@ -47,6 +53,8 @@ def rsi(df, periods=RSI_HISTORY, ema=True):
     return rsi
 
 def logic(account, lookback):
+    global IN_FIRST_DIP
+
     try:
         # get the latest index
         today = len(lookback) -1
@@ -68,18 +76,26 @@ def logic(account, lookback):
             longterm_is_low  = (longterm_moving_average < shortterm_moving_average) and (longterm_moving_average < midterm_moving_average)
             longterm_is_high = (longterm_moving_average > shortterm_moving_average) and (longterm_moving_average > midterm_moving_average)
             
-            rsi_score = rsi(lookback)[today]
+            # rsi_score = rsi(lookback)[today]
 
             # trading logic
-            if (not invested):
-                if longterm_is_low:
+
+            # the FIRST dip we define as the dip that we
+            # entered our position at - only take action if
+            # the dip we detect is a new dip
+            if longterm_is_high and not IN_FIRST_DIP:
+                if (not invested):
                     if (shortterm_moving_average > midterm_moving_average):
                         account.enter_position('long', account.buying_power, lookback['close'][today])
+                        IN_FIRST_DIP = True
 
-            else:
-                if longterm_is_high or rsi_score > 65:
+                else:                
                     for position in account.positions:
                         account.close_position(position, 1, lookback['close'][today])
+                        IN_FIRST_DIP = False
+
+            if longterm_is_low:
+                IN_FIRST_DIP = False
 
     except Exception as e:
         print(e)
@@ -118,6 +134,34 @@ def kanes_stuff(account, lookback):
     except Exception as e:
         print(e)
     pass  # Handles lookback errors in beginning of dataset
+
+# mass testing function
+# if __name__ == "__main__":
+
+#     # define range to sweep
+#     vals = range(5, 55, 5)
+
+#     # force print to a txt file
+#     orig_stdout = sys.stdout
+#     with open("test.txt", "w") as f:
+#         sys.stdout = f
+
+#         # test all combinations
+#         for short, mid, long in itertools.combinations(vals, 3):
+            
+#             # reset global 
+#             moving_av_lengths = { 
+#                 'longterm'  : long, 
+#                 'midterm'   : mid,
+#                 'shortterm' : short
+#             }
+            
+#             print(f'\n\n({short}, {mid}, {long})\n')
+#             backtest.start(100, logic)
+#             backtest.results()
+#             sys.stdout
+
+#         sys.stdout = orig_stdout
 
 if __name__ == "__main__":
     backtest.start(100, logic)
