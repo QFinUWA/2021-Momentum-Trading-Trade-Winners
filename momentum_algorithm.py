@@ -3,6 +3,7 @@ import os
 import sys
 import time
 from math import comb
+from multiprocessing import Process
 
 import pandas as pd
 from talib.abstract import *
@@ -13,6 +14,8 @@ from gemini_modules import engine
 # read in data preserving dates
 df = pd.read_csv("data/USDT_LTC.csv", parse_dates=[0]) 
 
+# df = df.loc['2020-02-13':]
+
 # initializes backtesting engine
 backtest = engine.backtest(df)
 
@@ -21,13 +24,13 @@ backtest = engine.backtest(df)
 # lookback moving average lengths
 # longterm should not be less than RSI lookback length
 moving_av_lengths = { 
-    'shortterm' : 25,   
-    'midterm'   : 30,
-    'longterm'  : 35 
+    'shortterm' : 27,   
+    'midterm'   : 29,
+    'longterm'  : 33
 }
 
-RSI_LOW = 15
-RSI_HIGH = 65
+RSI_LOW = 28
+RSI_HIGH = 75
 
 # Flags
 IN_FIRST_DIP = False
@@ -75,6 +78,8 @@ def logic(account, lookback):
 
             # get the 3 moving averages (sorry I keep forgetting my keyboard is on the mic :') )
             shortterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['shortterm']).mean()[today]
+            # print(shortterm_moving_average)
+            # print(f'\t{today}')
             midterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['midterm']).mean()[today]
             longterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['longterm']).mean()[today]            
 
@@ -83,6 +88,7 @@ def logic(account, lookback):
             longterm_is_high = (longterm_moving_average > shortterm_moving_average) and (longterm_moving_average > midterm_moving_average)
             
             rsi_score = rsi(lookback)[today]
+            # rsi_score = 50
 
             # trading logic
 
@@ -91,17 +97,26 @@ def logic(account, lookback):
             # the dip we detect is a new dip
             if longterm_is_high and not IN_FIRST_DIP:
                 if (not invested):
-                    if (shortterm_moving_average > midterm_moving_average) or rsi_score < RSI_LOW:
-                        # account.buying_power = account.buying_power * 0.998
+                    if (shortterm_moving_average > midterm_moving_average):
+                        # account.buying_power = account.buying_power * 0.999
+                        # account.buying_power = 100
                         account.enter_position('long', account.buying_power, lookback['close'][today])
                         IN_FIRST_DIP = True
 
-                else:                
-                    for position in account.positions or rsi_score > RSI_HIGH:
+                else:   
+                    for position in account.positions:
                         account.close_position(position, 1, lookback['close'][today])
-                        # account.buying_power = account.buying_power * 0.998
+                        # account.buying_power = account.buying_power * 0.999
                         IN_FIRST_DIP = False
-
+            
+            if rsi_score < RSI_LOW and not invested:
+                account.enter_position('long', account.buying_power, lookback['close'][today])
+            
+            # if rsi_score > RSI_HIGH and invested:
+            #     for position in account.positions:
+            #             account.close_position(position, 1, lookback['close'][today])
+            #             # account.buying_power = account.buying_power * 0.999
+                
             if longterm_is_low:
                 IN_FIRST_DIP = False
 
@@ -111,56 +126,59 @@ def logic(account, lookback):
 # ------------------------------------[TESTING CODE BELOW]--------------------------------------------------------------------
 
 # mass testing function
-# if __name__ == "__main__":
-
-#     # define range to sweep
-#     scale = 1
-#     vals = range(25, 40, 5)
-#     vals = list(map(lambda x: x*scale, vals))
-
-#     # RSI
-#     low_list = [15]
-#     high_list = [65]
-
-#     # force print to a txt file
-#     orig_stdout = sys.stdout
-#     count = 0
-#     # total = comb(len(vals), 3)
-#     total = comb(len(vals),3)*len(low_list)*len(high_list)
-#     with open("results-data/temp.txt", "w") as f:
-        
-#         # test all combinations
-#         for short, mid, long in itertools.combinations(vals, 3):
-#             for low in low_list:
-#                 for high in high_list:
-#                     t0 = time.time()
-#                     sys.stdout = f
-                    
-#                     # reset global 
-#                     moving_av_lengths = { 
-#                         'longterm'  : long, 
-#                         'midterm'   : mid,
-#                         'shortterm' : short
-#                     }
-
-#                     RSI_LOW = low
-#                     RSI_HIGH = high
-                    
-#                     # do testing
-#                     print(f'\n({short}, {mid}, {long})')
-#                     print(f'\n[{low}, {high}]')
-#                     backtest.start(100, logic)
-#                     backtest.results()
-#                     t1 = time.time()
-#                     sys.stdout
-
-#                     sys.stdout = orig_stdout
-#                     count += 1
-#                     print(f'Rolling Averages:\t{short}, {mid}, {long}\nRSI:\t\t\t{low}-{high}\n{int(t1-t0)} secs, ({count}/{total})\n')
-#     import parse_results
-#     os.system('play -nq -t alsa synth {} sine {}'.format(0.5, 440))
-
 if __name__ == "__main__":
-    backtest.start(100, logic)
-    backtest.results()
-    backtest.chart()
+
+    # define range to sweep
+    scale = 1
+    vals = range(10, 101, 10)
+    # vals = [2, 10, 20]
+    vals = list(map(lambda x: x*scale, vals))
+
+    # RSI
+    low_list = [28]
+    high_list = [100]
+
+    # force print to a txt file
+    orig_stdout = sys.stdout
+    count = 0
+    # total = comb(len(vals), 3)
+    total = comb(len(vals),3)*len(low_list)*len(high_list)
+
+    print(f'\nDoing {total} Backtests ...\n')
+    with open("results-data/temp.txt", "w") as f:
+        
+        # test all combinations
+        for short, mid, long in itertools.combinations(vals, 3):
+            for low in low_list:
+                for high in high_list:
+                    t0 = time.time()
+                    sys.stdout = f
+                    
+                    # reset global 
+                    moving_av_lengths = { 
+                        'longterm'  : long, 
+                        'midterm'   : mid,
+                        'shortterm' : short
+                    }
+
+                    RSI_LOW = low
+                    RSI_HIGH = high
+                    
+                    # do testing
+                    print(f'\n({short}, {mid}, {long})')
+                    print(f'\n[{low}, {high}]')
+                    backtest.start(100, logic)
+                    backtest.results()
+                    t1 = time.time()
+                    sys.stdout
+
+                    sys.stdout = orig_stdout
+                    count += 1
+                    print(f'Rolling Averages:\t{short}, {mid}, {long}\nRSI:\t\t\t{low}-{high}\n{int(t1-t0)} secs, ({count}/{total})\n')
+    import parse_results
+    os.system('play -nq -t alsa synth {} sine {}'.format(0.5, 440))
+
+# if __name__ == "__main__":
+#     backtest.start(100, logic)
+#     backtest.results()
+#     backtest.chart()
