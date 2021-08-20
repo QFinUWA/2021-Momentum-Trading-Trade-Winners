@@ -25,3 +25,5 @@ do
 		done
 	done
 done
+
+# spd-say "script finished"
