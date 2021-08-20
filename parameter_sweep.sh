@@ -9,10 +9,10 @@ OUTPUT_FOLDER="$RESULTS_FOLDER/$(date +%d)th-$(date +%T)"
 echo "saving output in: $OUTPUT_FOLDER"
 mkdir $OUTPUT_FOLDER
 
-OUTPUT_FOLDER="results/20th-18:52:32"
-
 OUTPUT_NAME="output.txt"
 OUTPUT_PATH="$OUTPUT_FOLDER/$OUTPUT_NAME"
+
+touch $OUTPUT_PATH
 
 # the maximum value for the lookback window of the LONG moving average
 MAX_LONG=5
