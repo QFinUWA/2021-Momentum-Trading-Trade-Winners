@@ -149,7 +149,7 @@ def main():
 		_l = moving_av_lengths['longterm']
 		_r = RSI_HISTORY
 
-		print(f"{_s} {_m} {_l} {_r}")
+		print(f"{_s}\n{_m}\n{_l}\n{_r}")
 
 		# print results
 		backtest.results()
