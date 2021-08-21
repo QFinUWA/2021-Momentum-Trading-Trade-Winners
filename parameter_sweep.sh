@@ -21,6 +21,10 @@ OUTPUT_PATH="$OUTPUT_FOLDER/$OUTPUT_NAME"
 
 touch $OUTPUT_PATH
 
+# make a file for the analysis
+ANALYSIS_NAME="analysis.txt"
+ANALYSIS_PATH="$OUTPUT_FOLDER/$ANALYSIS_NAME"
+
 # the maximum value for the lookback window of the LONG moving average
 MAX_LONG=5
 
@@ -108,7 +112,9 @@ echo "removing temporary files"
 
 rm $OUTPUT_FOLDER/[0-9]*
 
-python3 $ANALYSIS_SCRIPT $OUTPUT_PATH
+echo "running analysis"
+
+python3 $ANALYSIS_SCRIPT $OUTPUT_PATH > $ANALYSIS_PATH
 
 spd-say "script finished"
 
