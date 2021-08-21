@@ -26,12 +26,13 @@ ANALYSIS_NAME="analysis.txt"
 ANALYSIS_PATH="$OUTPUT_FOLDER/$ANALYSIS_NAME"
 
 # the maximum value for the lookback window of the LONG moving average
-MAX_LONG=5
+MAX_LONG=40
+MIN_LONG=20
 
 # the number of configuations is the sum of the first n triangle numbers
 NUM_CONFIGS=$((((MAX_LONG-2)*(MAX_LONG-1)*(MAX_LONG))/6))
 
-NUM_THREADS=4
+NUM_THREADS=12
 NUM_BATCHES=$((($NUM_CONFIGS+$NUM_THREADS-1)/$NUM_THREADS))
 
 echo "$NUM_BATCHES batches and $NUM_CONFIGS configurations to search..."
@@ -42,11 +43,11 @@ echo ""
 echo "running the program and generating results"
 
 COUNT=1
-for LONG in $(seq 3 $MAX_LONG)
+for LONG in $(seq $MIN_LONG $MAX_LONG)
 do
-	for MID in $(seq 2 $[LONG-1])
+	for MID in $(seq $[MIN_LONG-1] $[LONG-1])
 	do
-		for SHORT in $(seq 1 $[MID-1])
+		for SHORT in $(seq $[MIN_LONG-2] $[MID-1])
 		do
 			# uses temp files to store intermediate results
 			FILENAME=$(printf "%02d-%02d-%02d" $SHORT $MID $LONG)

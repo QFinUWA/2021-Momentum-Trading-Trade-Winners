@@ -70,8 +70,8 @@ class DataObject:
 	]
 
 	def __init__(self, arr, index):
-		start_index = index * 13
-		end_index = start_index + 13
+		start_index = index * self.DATAPOINTS
+		end_index = start_index + self.DATAPOINTS
 		object_data = arr[start_index : end_index]
 
 		def parse_numeric(string):
