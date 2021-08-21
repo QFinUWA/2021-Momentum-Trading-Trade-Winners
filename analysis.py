@@ -74,8 +74,6 @@ class DataObject:
 		end_index = start_index + 13
 		object_data = arr[start_index : end_index]
 
-		print(index, start_index, end_index)
-
 		def parse_numeric(string):
 			string = string.strip("%")
 			try:
@@ -85,10 +83,6 @@ class DataObject:
 
 		object_data = list(map(parse_numeric, object_data))
 		data_map = dict(zip(self.INPUT_SCHEMA, object_data))
-
-		# print(self.INPUT_SCHEMA, arr)
-
-		print(data_map)
 
 		self.short				= data_map["short"]
 		self.mid 				= data_map["mid"]
