@@ -19,11 +19,19 @@ OUTPUT_PATH="$OUTPUT_FOLDER/$OUTPUT_NAME"
 touch $OUTPUT_PATH
 
 # the maximum value for the lookback window of the LONG moving average
-MAX_LONG=4
+MAX_LONG=5
 
 # the number of configuations is the sum of the first n triangle numbers
 NUM_CONFIGS=$((((MAX_LONG-2)*(MAX_LONG-1)*(MAX_LONG))/6))
 
+NUM_THREADS=4
+NUM_BATCHES=$((($NUM_CONFIGS+$NUM_THREADS-1)/$NUM_THREADS))
+
+echo "$NUM_BATCHES batches and $NUM_CONFIGS configurations to search..."
+echo "using $NUM_THREADS threads"
+echo ""
+echo "SIGKILL the program to quit (don't cntrl+c)"
+echo ""
 echo "running the program and generating results"
 
 COUNT=1
@@ -37,19 +45,27 @@ do
 			FILENAME=$(printf "%02d-%02d-%02d" $SHORT $MID $LONG)
 			FILEPATH="$OUTPUT_FOLDER/$FILENAME"
 
-			# print progress
-			# not relevant rn since all are in parallel
-			# echo -en $(printf "%3d/%3d\r" $COUNT $NUM_CONFIGS)
+			# ceil(count/6)
+			BATCH_COUNT=$((($COUNT+$NUM_THREADS-1)/$NUM_THREADS))
 
 			# run the program and output to a file
 			python3 example.py $SHORT $MID $LONG > $FILEPATH &
 
+			if [[ $(( COUNT % NUM_THREADS )) == 0 ]]; then
+				echo -en $(printf "%3d/%3d\r" $BATCH_COUNT $NUM_BATCHES)
+				sleep 1
+				wait
+			fi
+
 			# iterate count
-			COUNT=$((COUNT+1))
+			COUNT=$(($COUNT+1))
 		done
 	done
 done
 
+# waits for 'left-over' processes
+# in case number of thread isn't a factor of the configs
+echo -en $(printf "%3d/%3d\r" $NUM_BATCHES $NUM_BATCHES)
 wait
 
 echo "filtering the data"
@@ -90,3 +106,5 @@ echo "removing temporary files"
 rm $OUTPUT_FOLDER/[0-9]*
 
 spd-say "script finished"
+
+# 29 past
