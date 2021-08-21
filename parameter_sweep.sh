@@ -1,5 +1,8 @@
 #!/bin/bash
 
+PYTHON_SCRIPT="example.py"
+ANALYSIS_SCRIPT="analysis.py"
+
 # set up venv and talib library paths
 source bin/activate
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
@@ -49,7 +52,7 @@ do
 			BATCH_COUNT=$((($COUNT+$NUM_THREADS-1)/$NUM_THREADS))
 
 			# run the program and output to a file
-			python3 example.py $SHORT $MID $LONG > $FILEPATH &
+			python3 $PYTHON_SCRIPT $SHORT $MID $LONG > $FILEPATH &
 
 			if [[ $(( COUNT % NUM_THREADS )) == 0 ]]; then
 				echo -en $(printf "%3d/%3d\r" $BATCH_COUNT $NUM_BATCHES)
@@ -104,6 +107,8 @@ done
 echo "removing temporary files"
 
 rm $OUTPUT_FOLDER/[0-9]*
+
+python3 $ANALYSIS_SCRIPT $OUTPUT_PATH
 
 spd-say "script finished"
 
