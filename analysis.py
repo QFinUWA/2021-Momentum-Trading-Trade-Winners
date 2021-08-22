@@ -114,18 +114,18 @@ def generate_data_objects(FILEPATH):
 	with open(FILEPATH, 'r') as file:
 		lines = [line.strip() for line in file.readlines()]
 
-	num_samples = len(lines)//DataObject.DATAPOINTS - 1
+	num_samples = len(lines)//DataObject.DATAPOINTS
 
 	samples = []
 	for i in range(num_samples):
-		samples.append(DataObject(lines, num_samples))
+		samples.append(DataObject(lines, i))
 
 	samples = sorted(
 		samples,
 		key=lambda x: -x.profit_ratio
 	)
 
-	samples = list(map(lambda x: x.profit_ratio, samples))
+	samples = list(map(lambda x: (x.short, x.mid, x.long, x.profit_ratio), samples))
 	print(samples)
 
 def main():

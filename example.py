@@ -2,7 +2,6 @@ import itertools
 import os
 import sys
 import time
-from math import comb
 
 import pandas as pd
 from talib.abstract import *
