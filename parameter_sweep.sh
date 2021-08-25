@@ -1,5 +1,7 @@
 #!/bin/bash
 
+WEBHOOK_URL="https://discord.com/api/webhooks/880037779256533022/eE9LHFeC0UjulGThK_GJ4hk4SA3io32h5OuEufp7woQbgL42N9vKtseq0bLFdWIn_pBM"
+
 PYTHON_SCRIPT="example.py"
 ANALYSIS_SCRIPT="analysis.py"
 
@@ -79,11 +81,11 @@ wait
 echo "filtering the data"
 
 COUNT=1
-for LONG in $(seq 3 $MAX_LONG)
+for LONG in $(seq $MIN_LONG $MAX_LONG)
 do
-	for MID in $(seq 2 $[LONG-1])
+	for MID in $(seq $[MIN_LONG-1] $[LONG-1])
 	do
-		for SHORT in $(seq 1 $[MID-1])
+		for SHORT in $(seq $[MIN_LONG-2] $[MID-1])
 		do
 			# uses temp files to store intermediate results
 			FILENAME=$(printf "%02d-%02d-%02d" $SHORT $MID $LONG)
@@ -117,6 +119,8 @@ echo "running analysis"
 
 python3 $ANALYSIS_SCRIPT $OUTPUT_PATH > $ANALYSIS_PATH
 
-spd-say "script finished"
-
-# 29 past
+CONTENT="sweep finished\n swept from $MIN_LONG : $MAX_LONG"
+curl \
+-d '{"content": '"\"$CONTENT\""'}' \
+-H "Content-Type: application/json" \
+-X POST $WEBHOOK_URL
