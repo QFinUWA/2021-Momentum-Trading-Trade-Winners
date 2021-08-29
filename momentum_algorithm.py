@@ -26,6 +26,7 @@ backtest = engine.backtest(df)
 
 # define range to sweep
 scales = {
+    'half hourly': 1,
     'hourly': 2,
     '4 hourly': 8,
     '8 hourly': 16,
@@ -34,7 +35,7 @@ scales = {
     '3 daily': 144,
     'weekly': 336,
 }
-scale =  'daily'
+scale =  'half hourly'
 moving_av_lengths = { 
     'shortterm' : 9*scales[scale],   
     'midterm'   : 20*scales[scale],
@@ -113,31 +114,36 @@ def logic(account, lookback):
                 if (not invested):
                     if (shortterm_moving_average > midterm_moving_average):
                         account.buying_power = account.buying_power * (1-FEE)
-                        # account.buying_power = 100
                         account.enter_position('long', account.buying_power, lookback['close'][today])
                         IN_FIRST_DIP = True
 
-                else:
+                else:   
                     for position in account.positions:
+                        # print("this is running")
                         account.close_position(position, 1, lookback['close'][today])
                         account.buying_power = account.buying_power * (1-FEE)
                         IN_FIRST_DIP = False
-
-            if rsi_score <= RSI_LOW:
-                if invested:
-                    account.buying_power = account.buying_power * (1-FEE)
-                    account.enter_position('long', account.buying_power, lookback['close'][today])
-
             
-            if rsi_score => RSI_HIGH and invested:
+            # If we remove these two we actually make a more intense loss but our algorithm is much less volatile
+            # In testing -removing RSI low made it better 
+            
+            # this just reduces volatility, seems to have a greater affect upwards rather than downwards?
+            if rsi_score < RSI_LOW and not invested:
+                account.buying_power = account.buying_power * (1-FEE)
+                account.enter_position('long', account.buying_power, lookback['close'][today])
+            
+            # I'm testing just using this right now
+            if rsi_score > RSI_HIGH and invested:
                 for position in account.positions:
                         account.close_position(position, 1, lookback['close'][today])
                         account.buying_power = account.buying_power * (1-FEE)
                 
+            # dont rm
             if longterm_is_low:
                 IN_FIRST_DIP = False
 
     except Exception as e:
+        print("")
         print(e)
 
 # ------------------------------------[TESTING CODE BELOW]--------------------------------------------------------------------

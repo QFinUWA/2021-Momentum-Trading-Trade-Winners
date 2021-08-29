@@ -23,3 +23,5 @@ results-data
 
 #Testing Ignore Files
 results
+datatest
+datadump
