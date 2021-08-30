@@ -47,21 +47,20 @@ RSI_HISTORY = 24
 def simulate_once(coinname,df,lowrange,highrange):
 	# define range to sweep
 
-	DATADUMP = "datadump"
+	DATADUMP = "datadump/9-14-30"
 	# b.to_csv(f"{DATADUMP}/{coinnname}-{lowrange}-{highrange}")
 
 	# initializes backtesting engine
 	backtest = engine.backtest(df)
 
 	backtest.start(100, logic)
-	with open(f'datadump/{coinname}.txt', 'a') as f:
+	with open(f'{DATADUMP}/{coinname}.txt', 'a') as f:
 		with redirect_stdout(f):
 			backtest.results()
 
 def run_simulation():
 	# initialize constants
-	trainingperiod = 500
-	samplesize = 5
+	samplesize = 20
 
 	# initialize directory
 	DATADIR = "datatest"
@@ -71,15 +70,18 @@ def run_simulation():
 	# gather training data files
 	trainingfiles = [i.path for i in scandir(TRAINDIR) if i.is_file()]
 
+	progress_bar_iterations = tqdm(range(len(trainingfiles)))
+
 	# determine cpu count and initialize a pool
 	# iterate through training files
 	num_cpus = psutil.cpu_count(logical=False)
 	with Pool(num_cpus) as threadpool:
-		for progress, trainingfile in zip(tqdm(range(len(trainingfiles))), trainingfiles):
+		for progress, trainingfile in zip(progress_bar_iterations, trainingfiles):
 			coinname = trainingfile.split("/")[-1].split(".")[0]
 			coindata = pd.read_csv(trainingfile)
 
 			datapoints = coindata.shape[0]
+			trainingperiod = datapoints//4
 			datarange = datapoints - trainingperiod
 
 			offsets = [randint(0, datarange+1) for i in range(samplesize)]
@@ -95,8 +97,6 @@ def run_simulation():
 
 			# run the pool with the necessary arguments
 			threadpool.starmap(simulate_once, args)
-
-
 
 def main():
 	run_simulation()
