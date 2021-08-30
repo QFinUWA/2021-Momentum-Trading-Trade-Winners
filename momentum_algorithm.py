@@ -143,8 +143,7 @@ def logic(account, lookback):
                 IN_FIRST_DIP = False
 
     except Exception as e:
-        print("")
-        print(e)
+        pass
 
 # ------------------------------------[TESTING CODE BELOW]--------------------------------------------------------------------
 

@@ -11,6 +11,7 @@ pyvenv.cfg
 QFin PowerPoint Momentum Trading.pptx
 ta-lib
 .vscode
+__pycache__
 
 #Peronal Ignore Files
 .python-version
@@ -26,4 +27,4 @@ results
 datatest
 datadump
 test_data
-learn_data
+train_data

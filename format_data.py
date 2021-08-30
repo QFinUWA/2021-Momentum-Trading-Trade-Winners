@@ -1,14 +1,15 @@
 # turns all the csv files in datatest to proper test data in datadump
+from random import shuffle
 
 import pandas as pd
 from os import *
 
 DATADIR = "datatest"
 TESTDIR = "test_data"
+TRAINDIR = "train_data"
 
 def main():
     datafiles = [i.path for i in scandir(DATADIR) if i.is_file()]
-    print(datafiles)
 
     for i, csv_path in enumerate(datafiles):
         coinname = csv_path.split("USD")[0].split("_")[1]
@@ -48,7 +49,17 @@ def main():
 
         csv = csv[dates]
 
-        # save to a test file
-        csv.to_csv(f"{TESTDIR}/{coinname}.csv")
+        numrows = csv.shape[0]
+
+        data = [csv.iloc[:numrows//2], csv.iloc[numrows//2:]]
+        shuffle(data)
+
+        testing     = data[0]
+        training    = data[1]
+
+        # save to separate training/testing files
+        testing.to_csv(f"{TESTDIR}/{coinname}.csv")
+        training.to_csv(f"{TRAINDIR}/{coinname}.csv")
+
 
 main()
