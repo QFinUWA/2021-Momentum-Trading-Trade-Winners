@@ -60,7 +60,7 @@ def simulate_once(coinname,df,lowrange,highrange):
 
 def run_simulation():
 	# initialize constants
-	samplesize = 20
+	samplesize = 1000
 
 	# initialize directory
 	DATADIR = "datatest"
