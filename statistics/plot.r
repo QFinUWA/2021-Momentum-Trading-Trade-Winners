@@ -1,18 +1,25 @@
 library(ggplot2)
+library(reshape)
+library(plyr)
+
+set.seed(5)
 
 coinfiles = c("ETH.csv", "LINK.csv", "LTC.csv", "XMR.csv")
 
-# results = matrix(means)
+sampleSize = 50
+numSamples = 400
 
-for(coinfile in coinfiles) {
+meansmatrix = matrix(, nrow=numSamples, ncol=4)
+stdnormmatrix = matrix(, nrow=numSamples, ncol=4)
+
+for(index in c(1:4)) {
+	coinfile = coinfiles[index]
 	df = read.csv(coinfile, header=FALSE)
 
 	names(df) = c("x")
 
 	x = df$x
 
-	sampleSize = 20
-	numSamples = 400
 
 	samples = matrix(, nrow = numSamples, ncol = sampleSize)
 
@@ -22,24 +29,35 @@ for(coinfile in coinfiles) {
 	}
 
 	means = apply(samples, 1, mean)
-	variance = apply(samples, 1, var)
+	std = apply(samples, 1, sd)
+	stdnorm = (std - mean(std)) / sd(std)
 
-	meanplot = ggplot(, aes(x=means)) +
-		geom_density(fill="gray", alpha=0.8) +
-		geom_vline(aes(xintercept=mean(means)), color="black",
-             linetype="dashed") +
-		ggtitle(coinfile) +
-		xlab("mean %gain") +
-		theme_bw()
-
-	varplot = ggplot(, aes(x=sqrt(variance))) +
-		geom_density(fill="gray", alpha=0.8) +
-		geom_vline(aes(xintercept=mean(sqrt(variance))), color="black",
-             linetype="dashed") +
-		ggtitle(coinfile) +
-		xlab("standard deviation") +
-		theme_bw()
-
-	print(meanplot)
-	print(varplot)
+	meansmatrix[,index] = means
+	stdnormmatrix[,index] = stdnorm
 }
+
+meansmatrix = data.frame(meansmatrix)
+names(meansmatrix) = coinfiles
+mdata = melt(meansmatrix)
+
+mu = ddply(mdata, "variable", summarise, grp.mean=mean(value))
+
+mplot = ggplot(mdata, aes(x=value, fill=variable)) +
+	geom_density(alpha=0.7) + 
+	geom_vline(data=mu, aes(xintercept=grp.mean),
+		alpha=0.7, linetype="dashed") +
+	xlab("mean of %gain") +
+	ggtitle("Distribution of the mean profit across coins") +
+	theme_bw()
+
+stdnormmatrix = data.frame(stdnormmatrix)
+names(stdnormmatrix) = coinfiles
+sdata = melt(stdnormmatrix)
+
+splot = ggplot(sdata, aes(x=value, fill=variable)) +
+	geom_density(alpha=0.6) +
+	xlab("standardized sd of the distribution of %gain") +
+	theme_bw()
+
+print(mplot)
+print(splot)
