@@ -2,6 +2,8 @@ library(ggplot2)
 
 coinfiles = c("ETH.csv", "LINK.csv", "LTC.csv", "XMR.csv")
 
+# results = matrix(means)
+
 for(coinfile in coinfiles) {
 	df = read.csv(coinfile, header=FALSE)
 
@@ -23,12 +25,20 @@ for(coinfile in coinfiles) {
 	variance = apply(samples, 1, var)
 
 	meanplot = ggplot(, aes(x=means)) +
-		geom_density() +
-		ggtitle(coinfile)
+		geom_density(fill="gray", alpha=0.8) +
+		geom_vline(aes(xintercept=mean(means)), color="black",
+             linetype="dashed") +
+		ggtitle(coinfile) +
+		xlab("mean %gain") +
+		theme_bw()
 
-	varplot = ggplot(, aes(x=variance)) +
-		geom_density() +
-		ggtitle(coinfile)
+	varplot = ggplot(, aes(x=sqrt(variance))) +
+		geom_density(fill="gray", alpha=0.8) +
+		geom_vline(aes(xintercept=mean(sqrt(variance))), color="black",
+             linetype="dashed") +
+		ggtitle(coinfile) +
+		xlab("standard deviation") +
+		theme_bw()
 
 	print(meanplot)
 	print(varplot)
