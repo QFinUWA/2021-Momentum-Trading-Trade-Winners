@@ -26,7 +26,7 @@ scales = {
 	'3 daily': 144,
 	'weekly': 336,
 }
-scale =  'half hourly'
+scale =  'daily'
 moving_av_lengths = { 
 	'shortterm' : 9*scales[scale],   
 	'midterm'   : 20*scales[scale],
@@ -60,7 +60,7 @@ def simulate_once(coinname,df,lowrange,highrange):
 
 def run_simulation():
 	# initialize constants
-	samplesize = 20
+	samplesize = 300
 
 	# initialize directory
 	DATADIR = "datatest"
@@ -81,7 +81,7 @@ def run_simulation():
 			coindata = pd.read_csv(trainingfile)
 
 			datapoints = coindata.shape[0]
-			trainingperiod = datapoints//4
+			trainingperiod = datapoints//2
 			datarange = datapoints - trainingperiod
 
 			offsets = [randint(0, datarange+1) for i in range(samplesize)]

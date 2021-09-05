@@ -2,7 +2,7 @@ import itertools
 import os
 import sys
 import time
-from math import comb
+#from math import comb
 from multiprocessing import Process
 
 import pandas as pd
@@ -35,7 +35,7 @@ scales = {
     '3 daily': 144,
     'weekly': 336,
 }
-scale =  'half hourly'
+scale =  'daily'
 moving_av_lengths = { 
     'shortterm' : 9*scales[scale],   
     'midterm'   : 20*scales[scale],
