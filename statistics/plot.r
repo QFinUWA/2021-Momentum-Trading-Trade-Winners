@@ -1,18 +1,23 @@
+#!/usr/bin/Rscript
+
 library(ggplot2)
 library(reshape)
 library(plyr)
 
 set.seed(5)
 
-coinfiles = c("ETH.csv", "LINK.csv", "LTC.csv", "XMR.csv")
+setwd("/home/gambit/Documents/QFin/2021project2/statistics")
+
+coinfiles = c("ADA.csv",  "BNB.csv",  "DASH.csv",  "ETH.csv",   "LTC.csv",  "XRP.csv",
+"BAT.csv",  "BTC.csv",  "EOS.csv",   "LINK.csv",  "XMR.csv")
 
 sampleSize = 50
 numSamples = 400
 
-meansmatrix = matrix(, nrow=numSamples, ncol=4)
-stdnormmatrix = matrix(, nrow=numSamples, ncol=4)
+meansmatrix = matrix(, nrow=numSamples, ncol=11)
+stdnormmatrix = matrix(, nrow=numSamples, ncol=11)
 
-for(index in c(1:4)) {
+for(index in c(1:11)) {
 	coinfile = coinfiles[index]
 	df = read.csv(coinfile, header=FALSE)
 
@@ -61,3 +66,5 @@ splot = ggplot(sdata, aes(x=value, fill=variable)) +
 
 print(mplot)
 print(splot)
+
+pdf("test.pdf", mplot)
