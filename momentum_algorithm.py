@@ -12,7 +12,7 @@ from talib.abstract import *
 from gemini_modules import engine
 
 # read in data preserving dates
-df = pd.read_csv("data/USDT_LTC.csv", parse_dates=[0]) 
+df = pd.read_csv("data/USDT_XRP.csv", parse_dates=[0]) 
 
 # df = df.loc['2020-02-13':]
 
@@ -24,9 +24,9 @@ backtest = engine.backtest(df)
 # lookback moving average lengths
 # longterm should not be less than RSI lookback length
 moving_av_lengths = { 
-    'shortterm' : 9*48,   
-    'midterm'   : 14*48,
-    'longterm'  : 30*48
+    'shortterm' : 13*48,   
+    'midterm'   : 19*48,
+    'longterm'  : 25*48
 }
 
 RSI_LOW = 30
@@ -38,7 +38,7 @@ FEE = 0.002
 IN_FIRST_DIP = False
 
 # DAYS IN A TRADING MONTH for RSI parameter
-RSI_HISTORY = 24
+RSI_HISTORY = 24*48
 def rsi(df, periods=RSI_HISTORY, ema=True):
     """
     Returns a pd.Series with the relative strength index.
@@ -79,19 +79,26 @@ def logic(account, lookback):
             invested = account.buying_power <= 0
 
             # get the 3 moving averages (sorry I keep forgetting my keyboard is on the mic :') )
-            shortterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['shortterm']).mean()[today]
+
+            short_lookback = moving_av_lengths['shortterm']
+            medium_lookback = moving_av_lengths['midterm']
+            long_lookback = moving_av_lengths['longterm']
+
+            # if invested:
+            #     short_lookback  = int(short_lookback * 0.9)
+            #     medium_lookback = int(medium_lookback * 0.9)
+            #     long_lookback   = int(long_lookback * 0.9)
+
+            shortterm_moving_average = lookback['close'].rolling(window=short_lookback).mean()[today]
             # print(shortterm_moving_average)
             # print(f'\t{today}')
-            midterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['midterm']).mean()[today]
-            longterm_moving_average = lookback['close'].rolling(window=moving_av_lengths['longterm']).mean()[today]            
+            midterm_moving_average = lookback['close'].rolling(window=medium_lookback).mean()[today]
+            longterm_moving_average = lookback['close'].rolling(window=long_lookback).mean()[today]            
 
             # see if longterm is low or it is high
             longterm_is_low  = (longterm_moving_average < shortterm_moving_average) and (longterm_moving_average < midterm_moving_average)
             longterm_is_high = (longterm_moving_average > shortterm_moving_average) and (longterm_moving_average > midterm_moving_average)
             
-            # rsi_score = rsi(lookback)[today]
-            # rsi_score = 50
-
             # trading logic
 
             # the FIRST dip we define as the dip that we
@@ -101,7 +108,6 @@ def logic(account, lookback):
                 if (not invested):
                     if (shortterm_moving_average > midterm_moving_average):
                         account.buying_power = account.buying_power * (1-FEE)
-                        # account.buying_power = 100
                         account.enter_position('long', account.buying_power, lookback['close'][today])
                         IN_FIRST_DIP = True
 
@@ -110,6 +116,18 @@ def logic(account, lookback):
                         account.close_position(position, 1, lookback['close'][today])
                         account.buying_power = account.buying_power * (1-FEE)
                         IN_FIRST_DIP = False
+
+            rsi_score = rsi(lookback)[today]
+
+            if RSI_LOW > rsi_score and not invested:
+                account.buying_power = account.buying_power * (1-FEE)
+                account.enter_position('long', account.buying_power, lookback['close'][today])
+                IN_FIRST_DIP = True
+                
+            if RSI_HIGH < rsi_score and invested:
+                account.close_position(position, 1, lookback['close'][today])
+                account.buying_power = account.buying_power * (1-FEE)
+                IN_FIRST_DIP = False
 
             if longterm_is_low:
                 IN_FIRST_DIP = False
