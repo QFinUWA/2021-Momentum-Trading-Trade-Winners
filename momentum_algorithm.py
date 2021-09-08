@@ -1,10 +1,3 @@
-import itertools
-import os
-import sys
-import time
-from math import comb
-from multiprocessing import Process
-
 import pandas as pd
 from talib.abstract import *
 
@@ -14,32 +7,40 @@ from gemini_modules import engine
 # read in data preserving dates
 df = pd.read_csv("data/USDT_XRP.csv", parse_dates=[0]) 
 
-# df = df.loc['2020-02-13':]
-
 # initializes backtesting engine
 backtest = engine.backtest(df)
 
 # globals...
 
+scales_map = {
+    "daily" : 48,
+    "half hourly": 1
+}
+
+scale = "daily"
+scale_factor = scales_map[scale]
+
 # lookback moving average lengths
 # longterm should not be less than RSI lookback length
 moving_av_lengths = { 
-    'shortterm' : 13*48,   
-    'midterm'   : 19*48,
-    'longterm'  : 25*48
+    'shortterm' : 9 *scale_factor,   
+    'midterm'   : 14*scale_factor,
+    'longterm'  : 30*scale_factor
 }
 
-RSI_LOW = 30
-RSI_HIGH = 70
+# thresholds for RSI
+RSI_LOW     = 35
+RSI_HIGH    = 75
 
+# we hard-coded the fee for testing
 FEE = 0.002
 
 # Flags
 IN_FIRST_DIP = False
 
 # DAYS IN A TRADING MONTH for RSI parameter
-RSI_HISTORY = 24*48
-def rsi(df, periods=RSI_HISTORY, ema=True):
+RSI_HISTORY = 24*scale_factor
+def rsi(df, periods=RSI_HISTORY):
     """
     Returns a pd.Series with the relative strength index.
     source: https://www.roelpeters.be/many-ways-to-calculate-the-rsi-in-python-pandas/
@@ -50,14 +51,9 @@ def rsi(df, periods=RSI_HISTORY, ema=True):
     up = close_delta.clip(lower=0)
     down = -1 * close_delta.clip(upper=0)
     
-    if ema == True:
-	    # Use exponential moving average
-        ma_up = up.ewm(com = periods - 1, adjust=True, min_periods = periods).mean()
-        ma_down = down.ewm(com = periods - 1, adjust=True, min_periods = periods).mean()
-    else:
-        # Use simple moving average
-        ma_up = up.rolling(window = periods, adjust=False).mean()
-        ma_down = down.rolling(window = periods, adjust=False).mean()
+    # Use exponential moving average
+    ma_up = up.ewm(com = periods - 1, adjust=True, min_periods = periods).mean()
+    ma_down = down.ewm(com = periods - 1, adjust=True, min_periods = periods).mean()
         
     rsi = ma_up / ma_down
     rsi = 100 - (100/(1 + rsi))
@@ -75,23 +71,15 @@ def logic(account, lookback):
 
         # start trading after all moving averages have started
         if (today > longest_lookback):
-            # our logic starts here
-            invested = account.buying_power <= 0
+            invested = account.buying_power <= 0    # we go all-in every time
+                                                    # only invested when buying power = 0
 
-            # get the 3 moving averages (sorry I keep forgetting my keyboard is on the mic :') )
-
+            # get the 3 moving averages
             short_lookback = moving_av_lengths['shortterm']
             medium_lookback = moving_av_lengths['midterm']
             long_lookback = moving_av_lengths['longterm']
 
-            # if invested:
-            #     short_lookback  = int(short_lookback * 0.9)
-            #     medium_lookback = int(medium_lookback * 0.9)
-            #     long_lookback   = int(long_lookback * 0.9)
-
             shortterm_moving_average = lookback['close'].rolling(window=short_lookback).mean()[today]
-            # print(shortterm_moving_average)
-            # print(f'\t{today}')
             midterm_moving_average = lookback['close'].rolling(window=medium_lookback).mean()[today]
             longterm_moving_average = lookback['close'].rolling(window=long_lookback).mean()[today]            
 
@@ -99,7 +87,8 @@ def logic(account, lookback):
             longterm_is_low  = (longterm_moving_average < shortterm_moving_average) and (longterm_moving_average < midterm_moving_average)
             longterm_is_high = (longterm_moving_average > shortterm_moving_average) and (longterm_moving_average > midterm_moving_average)
             
-            # trading logic
+
+            # -------------------- trading logic --------------------
 
             # the FIRST dip we define as the dip that we
             # entered our position at - only take action if
@@ -115,7 +104,9 @@ def logic(account, lookback):
                     for position in account.positions:
                         account.close_position(position, 1, lookback['close'][today])
                         account.buying_power = account.buying_power * (1-FEE)
-                        IN_FIRST_DIP = False
+                    IN_FIRST_DIP = False
+
+            # -------------------- RSI indicator -------------------- 
 
             rsi_score = rsi(lookback)[today]
 
@@ -125,15 +116,16 @@ def logic(account, lookback):
                 IN_FIRST_DIP = True
                 
             if RSI_HIGH < rsi_score and invested:
-                account.close_position(position, 1, lookback['close'][today])
-                account.buying_power = account.buying_power * (1-FEE)
+                for position in account.positions:
+                    account.close_position(position, 1, lookback['close'][today])
+                    account.buying_power = account.buying_power * (1-FEE)
                 IN_FIRST_DIP = False
 
             if longterm_is_low:
                 IN_FIRST_DIP = False
 
     except Exception as e:
-        print(e)
+        print(e, "a cosmic tragedy has transpired") # git reset --hard ?
 
 if __name__ == "__main__":
     backtest.start(100, logic)
