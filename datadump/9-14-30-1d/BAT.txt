@@ -1,0 +1,4200 @@
+-------------- Results ----------------
+
+Buy and Hold : -27.55%
+Net Profit   : -27.55
+Strategy     : -22.49%
+Net Profit   : -22.49
+Longs        : 7
+Sells        : 6
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 13
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.8%
+Net Profit   : -31.8
+Strategy     : -42.53%
+Net Profit   : -42.53
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -7.81%
+Net Profit   : -7.81
+Strategy     : -0.25%
+Net Profit   : -0.25
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 9.82%
+Net Profit   : 9.82
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.26%
+Net Profit   : -35.26
+Strategy     : -26.47%
+Net Profit   : -26.47
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.56%
+Net Profit   : -35.56
+Strategy     : -28.38%
+Net Profit   : -28.38
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 63.71%
+Net Profit   : 63.71
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.46%
+Net Profit   : -41.46
+Strategy     : -36.84%
+Net Profit   : -36.84
+Longs        : 4
+Sells        : 3
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 7
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.38%
+Net Profit   : -35.38
+Strategy     : -23.54%
+Net Profit   : -23.54
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -10.9%
+Net Profit   : -10.9
+Strategy     : -1.9%
+Net Profit   : -1.9
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 23.28%
+Net Profit   : 23.28
+Strategy     : 46.21%
+Net Profit   : 46.21
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -50.29%
+Net Profit   : -50.29
+Strategy     : -44.41%
+Net Profit   : -44.41
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 3.56%
+Net Profit   : 3.56
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -27.92%
+Net Profit   : -27.92
+Strategy     : -12.61%
+Net Profit   : -12.61
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.15%
+Net Profit   : -39.15
+Strategy     : -31.59%
+Net Profit   : -31.59
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -42.33%
+Net Profit   : -42.33
+Strategy     : -40.03%
+Net Profit   : -40.03
+Longs        : 4
+Sells        : 3
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 7
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.5%
+Net Profit   : -26.5
+Strategy     : -10.24%
+Net Profit   : -10.24
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.74%
+Net Profit   : -35.74
+Strategy     : -36.09%
+Net Profit   : -36.09
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -47.34%
+Net Profit   : -47.34
+Strategy     : -42.48%
+Net Profit   : -42.48
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 68.84%
+Net Profit   : 68.84
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.08%
+Net Profit   : -30.08
+Strategy     : -13.5%
+Net Profit   : -13.5
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 30.3%
+Net Profit   : 30.3
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -44.77%
+Net Profit   : -44.77
+Strategy     : -37.08%
+Net Profit   : -37.08
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -13.58%
+Net Profit   : -13.58
+Strategy     : -5.25%
+Net Profit   : -5.25
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 5.4%
+Net Profit   : 5.4
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.9%
+Net Profit   : -32.9
+Strategy     : -18.43%
+Net Profit   : -18.43
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 5.85%
+Net Profit   : 5.85
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.6%
+Net Profit   : -35.6
+Strategy     : -23.36%
+Net Profit   : -23.36
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 9.82%
+Net Profit   : 9.82
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 5.97%
+Net Profit   : 5.97
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.64%
+Net Profit   : -31.64
+Strategy     : -13.87%
+Net Profit   : -13.87
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.66%
+Net Profit   : -26.66
+Strategy     : -10.94%
+Net Profit   : -10.94
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -50.57%
+Net Profit   : -50.57
+Strategy     : -45.94%
+Net Profit   : -45.94
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.18%
+Net Profit   : -39.18
+Strategy     : -31.75%
+Net Profit   : -31.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.66%
+Net Profit   : -26.66
+Strategy     : -10.94%
+Net Profit   : -10.94
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -43.31%
+Net Profit   : -43.31
+Strategy     : -37.66%
+Net Profit   : -37.66
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.45%
+Net Profit   : -39.45
+Strategy     : -32.07%
+Net Profit   : -32.07
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -28.41%
+Net Profit   : -28.41
+Strategy     : -9.08%
+Net Profit   : -9.08
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -5.96%
+Net Profit   : -5.96
+Strategy     : 5.67%
+Net Profit   : 5.67
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.73%
+Net Profit   : -34.73
+Strategy     : -23.68%
+Net Profit   : -23.68
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.87%
+Net Profit   : -36.87
+Strategy     : -29.06%
+Net Profit   : -29.06
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.46%
+Net Profit   : -36.46
+Strategy     : -27.64%
+Net Profit   : -27.64
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.72%
+Net Profit   : -40.72
+Strategy     : -32.7%
+Net Profit   : -32.7
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 56.63%
+Net Profit   : 56.63
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.28%
+Net Profit   : -38.28
+Strategy     : -25.08%
+Net Profit   : -25.08
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.14%
+Net Profit   : -36.14
+Strategy     : -29.21%
+Net Profit   : -29.21
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 18.82%
+Net Profit   : 18.82
+Strategy     : 22.93%
+Net Profit   : 22.93
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.86%
+Net Profit   : -37.86
+Strategy     : -30.43%
+Net Profit   : -30.43
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 21.62%
+Net Profit   : 21.62
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 4.45%
+Net Profit   : 4.45
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.35%
+Net Profit   : -35.35
+Strategy     : -20.89%
+Net Profit   : -20.89
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.29%
+Net Profit   : -41.29
+Strategy     : -31.63%
+Net Profit   : -31.63
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -33.5%
+Net Profit   : -33.5
+Strategy     : -19.4%
+Net Profit   : -19.4
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.0%
+Net Profit   : -34.0
+Strategy     : -25.87%
+Net Profit   : -25.87
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 66.89%
+Net Profit   : 66.89
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -45.23%
+Net Profit   : -45.23
+Strategy     : -43.22%
+Net Profit   : -43.22
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 36.4%
+Net Profit   : 36.4
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.11%
+Net Profit   : -31.11
+Strategy     : -31.98%
+Net Profit   : -31.98
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 20.85%
+Net Profit   : 20.85
+Strategy     : 23.04%
+Net Profit   : 23.04
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.87%
+Net Profit   : -36.87
+Strategy     : -26.1%
+Net Profit   : -26.1
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 37.88%
+Net Profit   : 37.88
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.28%
+Net Profit   : -32.28
+Strategy     : -14.94%
+Net Profit   : -14.94
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.5%
+Net Profit   : -36.5
+Strategy     : -20.38%
+Net Profit   : -20.38
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 18.76%
+Net Profit   : 18.76
+Strategy     : 44.81%
+Net Profit   : 44.81
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 16.73%
+Net Profit   : 16.73
+Strategy     : 22.65%
+Net Profit   : 22.65
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 8.5%
+Net Profit   : 8.5
+Strategy     : 13.69%
+Net Profit   : 13.69
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 8.92%
+Net Profit   : 8.92
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.6%
+Net Profit   : -35.6
+Strategy     : -17.73%
+Net Profit   : -17.73
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.13%
+Net Profit   : -34.13
+Strategy     : -35.36%
+Net Profit   : -35.36
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -16.74%
+Net Profit   : -16.74
+Strategy     : -4.94%
+Net Profit   : -4.94
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.5%
+Net Profit   : -40.5
+Strategy     : -31.75%
+Net Profit   : -31.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -33.72%
+Net Profit   : -33.72
+Strategy     : -17.82%
+Net Profit   : -17.82
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.08%
+Net Profit   : -35.08
+Strategy     : -25.64%
+Net Profit   : -25.64
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.42%
+Net Profit   : -41.42
+Strategy     : -32.38%
+Net Profit   : -32.38
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 32.52%
+Net Profit   : 32.52
+Strategy     : 47.94%
+Net Profit   : 47.94
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.53%
+Net Profit   : -31.53
+Strategy     : -12.24%
+Net Profit   : -12.24
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -45.78%
+Net Profit   : -45.78
+Strategy     : -41.93%
+Net Profit   : -41.93
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.5%
+Net Profit   : -37.5
+Strategy     : -26.15%
+Net Profit   : -26.15
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 8.74%
+Net Profit   : 8.74
+Strategy     : 13.85%
+Net Profit   : 13.85
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.62%
+Net Profit   : -30.62
+Strategy     : -13.68%
+Net Profit   : -13.68
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 6.32%
+Net Profit   : 6.32
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -46.96%
+Net Profit   : -46.96
+Strategy     : -43.62%
+Net Profit   : -43.62
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -29.64%
+Net Profit   : -29.64
+Strategy     : -14.1%
+Net Profit   : -14.1
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.22%
+Net Profit   : -41.22
+Strategy     : -33.03%
+Net Profit   : -33.03
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.18%
+Net Profit   : -39.18
+Strategy     : -31.75%
+Net Profit   : -31.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 22.39%
+Net Profit   : 22.39
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.29%
+Net Profit   : -41.29
+Strategy     : -31.63%
+Net Profit   : -31.63
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.03%
+Net Profit   : -40.03
+Strategy     : -32.82%
+Net Profit   : -32.82
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.04%
+Net Profit   : -35.04
+Strategy     : -27.69%
+Net Profit   : -27.69
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 30.3%
+Net Profit   : 30.3
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 27.88%
+Net Profit   : 27.88
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -50.46%
+Net Profit   : -50.46
+Strategy     : -44.88%
+Net Profit   : -44.88
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -33.81%
+Net Profit   : -33.81
+Strategy     : -17.68%
+Net Profit   : -17.68
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -7.65%
+Net Profit   : -7.65
+Strategy     : 2.07%
+Net Profit   : 2.07
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 23.32%
+Net Profit   : 23.32
+Strategy     : 24.22%
+Net Profit   : 24.22
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -3.35%
+Net Profit   : -3.35
+Strategy     : 4.08%
+Net Profit   : 4.08
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.17%
+Net Profit   : -36.17
+Strategy     : -23.5%
+Net Profit   : -23.5
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.25%
+Net Profit   : -41.25
+Strategy     : -33.84%
+Net Profit   : -33.84
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 3.83%
+Net Profit   : 3.83
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.97%
+Net Profit   : -35.97
+Strategy     : -23.17%
+Net Profit   : -23.17
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.93%
+Net Profit   : -36.93
+Strategy     : -31.01%
+Net Profit   : -31.01
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -29.89%
+Net Profit   : -29.89
+Strategy     : -13.17%
+Net Profit   : -13.17
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.95%
+Net Profit   : -31.95
+Strategy     : -14.52%
+Net Profit   : -14.52
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.63%
+Net Profit   : -30.63
+Strategy     : -14.15%
+Net Profit   : -14.15
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.36%
+Net Profit   : -37.36
+Strategy     : -24.52%
+Net Profit   : -24.52
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.29%
+Net Profit   : -37.29
+Strategy     : -28.05%
+Net Profit   : -28.05
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 4.32%
+Net Profit   : 4.32
+Strategy     : 10.67%
+Net Profit   : 10.67
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -27.54%
+Net Profit   : -27.54
+Strategy     : -7.87%
+Net Profit   : -7.87
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.09%
+Net Profit   : -37.09
+Strategy     : -21.5%
+Net Profit   : -21.5
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 24.67%
+Net Profit   : 24.67
+Strategy     : 47.77%
+Net Profit   : 47.77
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.0%
+Net Profit   : -40.0
+Strategy     : -41.35%
+Net Profit   : -41.35
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.8%
+Net Profit   : -35.8
+Strategy     : -23.36%
+Net Profit   : -23.36
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -44.57%
+Net Profit   : -44.57
+Strategy     : -41.01%
+Net Profit   : -41.01
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.47%
+Net Profit   : -35.47
+Strategy     : -23.36%
+Net Profit   : -23.36
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.44%
+Net Profit   : -26.44
+Strategy     : -11.87%
+Net Profit   : -11.87
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 10.25%
+Net Profit   : 10.25
+Strategy     : 17.47%
+Net Profit   : 17.47
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -46.62%
+Net Profit   : -46.62
+Strategy     : -43.34%
+Net Profit   : -43.34
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.37%
+Net Profit   : -31.37
+Strategy     : -33.18%
+Net Profit   : -33.18
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 18.91%
+Net Profit   : 18.91
+Strategy     : 22.47%
+Net Profit   : 22.47
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.9%
+Net Profit   : -30.9
+Strategy     : -12.85%
+Net Profit   : -12.85
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -48.81%
+Net Profit   : -48.81
+Strategy     : -45.04%
+Net Profit   : -45.04
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.22%
+Net Profit   : -34.22
+Strategy     : -22.75%
+Net Profit   : -22.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.23%
+Net Profit   : -39.23
+Strategy     : -32.46%
+Net Profit   : -32.46
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.46%
+Net Profit   : -38.46
+Strategy     : -25.12%
+Net Profit   : -25.12
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -7.02%
+Net Profit   : -7.02
+Strategy     : 0.93%
+Net Profit   : 0.93
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -45.22%
+Net Profit   : -45.22
+Strategy     : -46.06%
+Net Profit   : -46.06
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 70.27%
+Net Profit   : 70.27
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -28.09%
+Net Profit   : -28.09
+Strategy     : -9.27%
+Net Profit   : -9.27
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -51.82%
+Net Profit   : -51.82
+Strategy     : -48.7%
+Net Profit   : -48.7
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 13.76%
+Net Profit   : 13.76
+Strategy     : 18.86%
+Net Profit   : 18.86
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 11.88%
+Net Profit   : 11.88
+Strategy     : 20.74%
+Net Profit   : 20.74
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.8%
+Net Profit   : -35.8
+Strategy     : -23.36%
+Net Profit   : -23.36
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.64%
+Net Profit   : -34.64
+Strategy     : -26.38%
+Net Profit   : -26.38
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.46%
+Net Profit   : -40.46
+Strategy     : -26.84%
+Net Profit   : -26.84
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.58%
+Net Profit   : -38.58
+Strategy     : -32.09%
+Net Profit   : -32.09
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.02%
+Net Profit   : -39.02
+Strategy     : -20.71%
+Net Profit   : -20.71
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 6.63%
+Net Profit   : 6.63
+Strategy     : 13.51%
+Net Profit   : 13.51
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 33.22%
+Net Profit   : 33.22
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.87%
+Net Profit   : -36.87
+Strategy     : -37.07%
+Net Profit   : -37.07
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 34.43%
+Net Profit   : 34.43
+Strategy     : 44.91%
+Net Profit   : 44.91
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -46.9%
+Net Profit   : -46.9
+Strategy     : -44.66%
+Net Profit   : -44.66
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -28.78%
+Net Profit   : -28.78
+Strategy     : -9.4%
+Net Profit   : -9.4
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -33.77%
+Net Profit   : -33.77
+Strategy     : -25.31%
+Net Profit   : -25.31
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -42.31%
+Net Profit   : -42.31
+Strategy     : -26.94%
+Net Profit   : -26.94
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.69%
+Net Profit   : -34.69
+Strategy     : -22.52%
+Net Profit   : -22.52
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.35%
+Net Profit   : -40.35
+Strategy     : -33.72%
+Net Profit   : -33.72
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.26%
+Net Profit   : -38.26
+Strategy     : -24.89%
+Net Profit   : -24.89
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -51.18%
+Net Profit   : -51.18
+Strategy     : -46.04%
+Net Profit   : -46.04
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.14%
+Net Profit   : -35.14
+Strategy     : -23.17%
+Net Profit   : -23.17
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.7%
+Net Profit   : -39.7
+Strategy     : -22.15%
+Net Profit   : -22.15
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.72%
+Net Profit   : -40.72
+Strategy     : -32.7%
+Net Profit   : -32.7
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.38%
+Net Profit   : -31.38
+Strategy     : -14.29%
+Net Profit   : -14.29
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.86%
+Net Profit   : -37.86
+Strategy     : -22.89%
+Net Profit   : -22.89
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -29.04%
+Net Profit   : -29.04
+Strategy     : -13.64%
+Net Profit   : -13.64
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.52%
+Net Profit   : -36.52
+Strategy     : -24.43%
+Net Profit   : -24.43
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 34.08%
+Net Profit   : 34.08
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 22.88%
+Net Profit   : 22.88
+Strategy     : 24.22%
+Net Profit   : 24.22
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -42.72%
+Net Profit   : -42.72
+Strategy     : -31.59%
+Net Profit   : -31.59
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -46.77%
+Net Profit   : -46.77
+Strategy     : -42.92%
+Net Profit   : -42.92
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.76%
+Net Profit   : -34.76
+Strategy     : -23.45%
+Net Profit   : -23.45
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 0.76%
+Net Profit   : 0.76
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.1%
+Net Profit   : -36.1
+Strategy     : -35.71%
+Net Profit   : -35.71
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.44%
+Net Profit   : -26.44
+Strategy     : -11.22%
+Net Profit   : -11.22
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.01%
+Net Profit   : -37.01
+Strategy     : -23.08%
+Net Profit   : -23.08
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 11.0%
+Net Profit   : 11.0
+Strategy     : 29.2%
+Net Profit   : 29.2
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.84%
+Net Profit   : -34.84
+Strategy     : -28.5%
+Net Profit   : -28.5
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.49%
+Net Profit   : -32.49
+Strategy     : -16.8%
+Net Profit   : -16.8
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 29.41%
+Net Profit   : 29.41
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 9.25%
+Net Profit   : 9.25
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 45.12%
+Net Profit   : 45.12
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 69.31%
+Net Profit   : 69.31
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -33.09%
+Net Profit   : -33.09
+Strategy     : -19.96%
+Net Profit   : -19.96
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 29.75%
+Net Profit   : 29.75
+Strategy     : 44.0%
+Net Profit   : 44.0
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.89%
+Net Profit   : -35.89
+Strategy     : -29.26%
+Net Profit   : -29.26
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -45.47%
+Net Profit   : -45.47
+Strategy     : -41.97%
+Net Profit   : -41.97
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 35.8%
+Net Profit   : 35.8
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 10.8%
+Net Profit   : 10.8
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.53%
+Net Profit   : -36.53
+Strategy     : -29.1%
+Net Profit   : -29.1
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.77%
+Net Profit   : -35.77
+Strategy     : -22.33%
+Net Profit   : -22.33
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.28%
+Net Profit   : -34.28
+Strategy     : -25.54%
+Net Profit   : -25.54
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -6.86%
+Net Profit   : -6.86
+Strategy     : 4.23%
+Net Profit   : 4.23
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.26%
+Net Profit   : -30.26
+Strategy     : -9.96%
+Net Profit   : -9.96
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.8%
+Net Profit   : -34.8
+Strategy     : -19.59%
+Net Profit   : -19.59
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.45%
+Net Profit   : -38.45
+Strategy     : -31.75%
+Net Profit   : -31.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 2.22%
+Net Profit   : 2.22
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -28.01%
+Net Profit   : -28.01
+Strategy     : -12.52%
+Net Profit   : -12.52
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.37%
+Net Profit   : -30.37
+Strategy     : -14.47%
+Net Profit   : -14.47
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.72%
+Net Profit   : -35.72
+Strategy     : -28.41%
+Net Profit   : -28.41
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.83%
+Net Profit   : -34.83
+Strategy     : -21.17%
+Net Profit   : -21.17
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 4.62%
+Net Profit   : 4.62
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 7.1%
+Net Profit   : 7.1
+Strategy     : 14.23%
+Net Profit   : 14.23
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 31.85%
+Net Profit   : 31.85
+Strategy     : 41.24%
+Net Profit   : 41.24
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.82%
+Net Profit   : -39.82
+Strategy     : -22.75%
+Net Profit   : -22.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 7.1%
+Net Profit   : 7.1
+Strategy     : 14.23%
+Net Profit   : 14.23
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.16%
+Net Profit   : -32.16
+Strategy     : -15.64%
+Net Profit   : -15.64
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 12.2%
+Net Profit   : 12.2
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -42.92%
+Net Profit   : -42.92
+Strategy     : -30.05%
+Net Profit   : -30.05
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.4%
+Net Profit   : -39.4
+Strategy     : -21.96%
+Net Profit   : -21.96
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 30.93%
+Net Profit   : 30.93
+Strategy     : 44.05%
+Net Profit   : 44.05
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.72%
+Net Profit   : -35.72
+Strategy     : -25.17%
+Net Profit   : -25.17
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -49.79%
+Net Profit   : -49.79
+Strategy     : -44.6%
+Net Profit   : -44.6
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.46%
+Net Profit   : -37.46
+Strategy     : -26.15%
+Net Profit   : -26.15
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.87%
+Net Profit   : -26.87
+Strategy     : -10.89%
+Net Profit   : -10.89
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -46.53%
+Net Profit   : -46.53
+Strategy     : -37.66%
+Net Profit   : -37.66
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.51%
+Net Profit   : -36.51
+Strategy     : -28.15%
+Net Profit   : -28.15
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.38%
+Net Profit   : -40.38
+Strategy     : -31.68%
+Net Profit   : -31.68
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.98%
+Net Profit   : -35.98
+Strategy     : -23.03%
+Net Profit   : -23.03
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -28.63%
+Net Profit   : -28.63
+Strategy     : -14.43%
+Net Profit   : -14.43
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -11.28%
+Net Profit   : -11.28
+Strategy     : -2.72%
+Net Profit   : -2.72
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -40.91%
+Net Profit   : -40.91
+Strategy     : -32.7%
+Net Profit   : -32.7
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 16.03%
+Net Profit   : 16.03
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.25%
+Net Profit   : -32.25
+Strategy     : -21.36%
+Net Profit   : -21.36
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.03%
+Net Profit   : -38.03
+Strategy     : -24.89%
+Net Profit   : -24.89
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 68.37%
+Net Profit   : 68.37
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.21%
+Net Profit   : -36.21
+Strategy     : -23.4%
+Net Profit   : -23.4
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.0%
+Net Profit   : -36.0
+Strategy     : -23.26%
+Net Profit   : -23.26
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.95%
+Net Profit   : -31.95
+Strategy     : -34.85%
+Net Profit   : -34.85
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.49%
+Net Profit   : -41.49
+Strategy     : -25.64%
+Net Profit   : -25.64
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -33.88%
+Net Profit   : -33.88
+Strategy     : -24.47%
+Net Profit   : -24.47
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 7.29%
+Net Profit   : 7.29
+Strategy     : 13.13%
+Net Profit   : 13.13
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.21%
+Net Profit   : -35.21
+Strategy     : -17.17%
+Net Profit   : -17.17
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.25%
+Net Profit   : -37.25
+Strategy     : -24.8%
+Net Profit   : -24.8
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.56%
+Net Profit   : -37.56
+Strategy     : -28.01%
+Net Profit   : -28.01
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 24.04%
+Net Profit   : 24.04
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -29.36%
+Net Profit   : -29.36
+Strategy     : -14.29%
+Net Profit   : -14.29
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.06%
+Net Profit   : -38.06
+Strategy     : -28.33%
+Net Profit   : -28.33
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.04%
+Net Profit   : -32.04
+Strategy     : -36.95%
+Net Profit   : -36.95
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 56.13%
+Net Profit   : 56.13
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -7.24%
+Net Profit   : -7.24
+Strategy     : 3.05%
+Net Profit   : 3.05
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -44.86%
+Net Profit   : -44.86
+Strategy     : -43.5%
+Net Profit   : -43.5
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.14%
+Net Profit   : -36.14
+Strategy     : -23.91%
+Net Profit   : -23.91
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 7.83%
+Net Profit   : 7.83
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -49.73%
+Net Profit   : -49.73
+Strategy     : -45.9%
+Net Profit   : -45.9
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.77%
+Net Profit   : -26.77
+Strategy     : -10.8%
+Net Profit   : -10.8
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -37.18%
+Net Profit   : -37.18
+Strategy     : -27.87%
+Net Profit   : -27.87
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -50.86%
+Net Profit   : -50.86
+Strategy     : -45.39%
+Net Profit   : -45.39
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -45.09%
+Net Profit   : -45.09
+Strategy     : -41.61%
+Net Profit   : -41.61
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 11.88%
+Net Profit   : 11.88
+Strategy     : 20.74%
+Net Profit   : 20.74
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 2.13%
+Net Profit   : 2.13
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.43%
+Net Profit   : -38.43
+Strategy     : -25.64%
+Net Profit   : -25.64
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -46.61%
+Net Profit   : -46.61
+Strategy     : -44.06%
+Net Profit   : -44.06
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -53.21%
+Net Profit   : -53.21
+Strategy     : -49.77%
+Net Profit   : -49.77
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 3.78%
+Net Profit   : 3.78
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.71%
+Net Profit   : -35.71
+Strategy     : -27.5%
+Net Profit   : -27.5
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 13.17%
+Net Profit   : 13.17
+Strategy     : 19.21%
+Net Profit   : 19.21
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.12%
+Net Profit   : -36.12
+Strategy     : -22.75%
+Net Profit   : -22.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.39%
+Net Profit   : -31.39
+Strategy     : -35.41%
+Net Profit   : -35.41
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.27%
+Net Profit   : -38.27
+Strategy     : -30.73%
+Net Profit   : -30.73
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 35.1%
+Net Profit   : 35.1
+Strategy     : 55.85%
+Net Profit   : 55.85
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -51.18%
+Net Profit   : -51.18
+Strategy     : -46.04%
+Net Profit   : -46.04
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 40.55%
+Net Profit   : 40.55
+Strategy     : 45.71%
+Net Profit   : 45.71
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.74%
+Net Profit   : -30.74
+Strategy     : -36.09%
+Net Profit   : -36.09
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.54%
+Net Profit   : -31.54
+Strategy     : -16.71%
+Net Profit   : -16.71
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.11%
+Net Profit   : -36.11
+Strategy     : -29.11%
+Net Profit   : -29.11
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -36.34%
+Net Profit   : -36.34
+Strategy     : -29.11%
+Net Profit   : -29.11
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 33.19%
+Net Profit   : 33.19
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 16.73%
+Net Profit   : 16.73
+Strategy     : 22.65%
+Net Profit   : 22.65
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 14.32%
+Net Profit   : 14.32
+Strategy     : 19.69%
+Net Profit   : 19.69
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 6.63%
+Net Profit   : 6.63
+Strategy     : 12.18%
+Net Profit   : 12.18
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 13.36%
+Net Profit   : 13.36
+Strategy     : 18.92%
+Net Profit   : 18.92
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.27%
+Net Profit   : -32.27
+Strategy     : -19.26%
+Net Profit   : -19.26
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 35.8%
+Net Profit   : 35.8
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -46.29%
+Net Profit   : -46.29
+Strategy     : -42.42%
+Net Profit   : -42.42
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -32.88%
+Net Profit   : -32.88
+Strategy     : -17.87%
+Net Profit   : -17.87
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -12.29%
+Net Profit   : -12.29
+Strategy     : -4.73%
+Net Profit   : -4.73
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -50.27%
+Net Profit   : -50.27
+Strategy     : -44.5%
+Net Profit   : -44.5
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 25.61%
+Net Profit   : 25.61
+Strategy     : 49.83%
+Net Profit   : 49.83
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 9.32%
+Net Profit   : 9.32
+Strategy     : 14.25%
+Net Profit   : 14.25
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -24.99%
+Net Profit   : -24.99
+Strategy     : -14.01%
+Net Profit   : -14.01
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 3.73%
+Net Profit   : 3.73
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -34.59%
+Net Profit   : -34.59
+Strategy     : -23.4%
+Net Profit   : -23.4
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -44.22%
+Net Profit   : -44.22
+Strategy     : -40.92%
+Net Profit   : -40.92
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 12.75%
+Net Profit   : 12.75
+Strategy     : 18.45%
+Net Profit   : 18.45
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.64%
+Net Profit   : -38.64
+Strategy     : -26.66%
+Net Profit   : -26.66
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -44.99%
+Net Profit   : -44.99
+Strategy     : -41.57%
+Net Profit   : -41.57
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -42.64%
+Net Profit   : -42.64
+Strategy     : -44.82%
+Net Profit   : -44.82
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 4.45%
+Net Profit   : 4.45
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -28.4%
+Net Profit   : -28.4
+Strategy     : -12.43%
+Net Profit   : -12.43
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 30.44%
+Net Profit   : 30.44
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -38.21%
+Net Profit   : -38.21
+Strategy     : -30.63%
+Net Profit   : -30.63
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 18.44%
+Net Profit   : 18.44
+Strategy     : 23.96%
+Net Profit   : 23.96
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.27%
+Net Profit   : -26.27
+Strategy     : -11.78%
+Net Profit   : -11.78
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -26.55%
+Net Profit   : -26.55
+Strategy     : -11.36%
+Net Profit   : -11.36
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -35.53%
+Net Profit   : -35.53
+Strategy     : -26.75%
+Net Profit   : -26.75
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 61.02%
+Net Profit   : 61.02
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -44.83%
+Net Profit   : -44.83
+Strategy     : -46.4%
+Net Profit   : -46.4
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 62.18%
+Net Profit   : 62.18
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -41.48%
+Net Profit   : -41.48
+Strategy     : -33.62%
+Net Profit   : -33.62
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.04%
+Net Profit   : -31.04
+Strategy     : -13.82%
+Net Profit   : -13.82
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 21.94%
+Net Profit   : 21.94
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -30.64%
+Net Profit   : -30.64
+Strategy     : -15.87%
+Net Profit   : -15.87
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -8.09%
+Net Profit   : -8.09
+Strategy     : 1.86%
+Net Profit   : 1.86
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 10.71%
+Net Profit   : 10.71
+Strategy     : 16.61%
+Net Profit   : 16.61
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 18.65%
+Net Profit   : 18.65
+Strategy     : 41.74%
+Net Profit   : 41.74
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 25.4%
+Net Profit   : 25.4
+Strategy     : 43.32%
+Net Profit   : 43.32
+Longs        : 1
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 1
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -31.76%
+Net Profit   : -31.76
+Strategy     : -14.57%
+Net Profit   : -14.57
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 4.67%
+Net Profit   : 4.67
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : 35.08%
+Net Profit   : 35.08
+Strategy     : 0.0%
+Net Profit   : 0.0
+Longs        : 0
+Sells        : 0
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 0
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -39.55%
+Net Profit   : -39.55
+Strategy     : -31.09%
+Net Profit   : -31.09
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------
+-------------- Results ----------------
+
+Buy and Hold : -42.33%
+Net Profit   : -42.33
+Strategy     : -33.86%
+Net Profit   : -33.86
+Longs        : 2
+Sells        : 1
+Shorts       : 0
+Covers       : 0
+--------------------
+Total Trades : 3
+
+---------------------------------------

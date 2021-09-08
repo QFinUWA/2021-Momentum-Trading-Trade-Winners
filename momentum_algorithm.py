@@ -12,7 +12,7 @@ from talib.abstract import *
 from gemini_modules import engine
 
 # read in data preserving dates
-df = pd.read_csv("data/USDT_BTC.csv", parse_dates=[0]) 
+df = pd.read_csv("data/USDT_LTC.csv", parse_dates=[0]) 
 
 # df = df.loc['2020-02-13':]
 
@@ -23,22 +23,10 @@ backtest = engine.backtest(df)
 
 # lookback moving average lengths
 # longterm should not be less than RSI lookback length
-
-# define range to sweep
-scales = {
-    'hourly': 2,
-    '4 hourly': 8,
-    '8 hourly': 16,
-    '12 hourly': 24,
-    'daily': 48,
-    '3 daily': 144,
-    'weekly': 336,
-}
-scale =  'daily'
 moving_av_lengths = { 
-    'shortterm' : 9*scales[scale],   
-    'midterm'   : 20*scales[scale],
-    'longterm'  : 30*scales[scale]
+    'shortterm' : 9*48,   
+    'midterm'   : 14*48,
+    'longterm'  : 30*48
 }
 
 RSI_LOW = 30
@@ -101,7 +89,7 @@ def logic(account, lookback):
             longterm_is_low  = (longterm_moving_average < shortterm_moving_average) and (longterm_moving_average < midterm_moving_average)
             longterm_is_high = (longterm_moving_average > shortterm_moving_average) and (longterm_moving_average > midterm_moving_average)
             
-            rsi_score = rsi(lookback)[today]
+            # rsi_score = rsi(lookback)[today]
             # rsi_score = 50
 
             # trading logic
@@ -123,77 +111,11 @@ def logic(account, lookback):
                         account.buying_power = account.buying_power * (1-FEE)
                         IN_FIRST_DIP = False
 
-            if rsi_score <= RSI_LOW:
-                if invested:
-                    account.buying_power = account.buying_power * (1-FEE)
-                    account.enter_position('long', account.buying_power, lookback['close'][today])
-
-            
-            if rsi_score => RSI_HIGH and invested:
-                for position in account.positions:
-                        account.close_position(position, 1, lookback['close'][today])
-                        account.buying_power = account.buying_power * (1-FEE)
-                
             if longterm_is_low:
                 IN_FIRST_DIP = False
 
     except Exception as e:
         print(e)
-
-# ------------------------------------[TESTING CODE BELOW]--------------------------------------------------------------------
-
-# mass testing function
-# if __name__ == "__main__":
-
-#     # define range to sweep
-#     scale = 48
-#     vals = range(10, 101, 10)
-#     # vals = [2, 10, 20]
-#     vals = list(map(lambda x: x*scale, vals))
-
-#     # RSI
-#     low_list = [28]
-#     high_list = [100]
-
-#     # force print to a txt file
-#     orig_stdout = sys.stdout
-#     count = 0
-#     # total = comb(len(vals), 3)
-#     total = comb(len(vals),3)*len(low_list)*len(high_list)
-
-#     print(f'\nDoing {total} Backtests ...\n')
-#     with open("results-data/temp.txt", "w") as f:
-        
-#         # test all combinations
-#         for short, mid, long in itertools.combinations(vals, 3):
-#             for low in low_list:
-#                 for high in high_list:
-#                     t0 = time.time()
-#                     sys.stdout = f
-                    
-#                     # reset global 
-#                     moving_av_lengths = { 
-#                         'longterm'  : long, 
-#                         'midterm'   : mid,
-#                         'shortterm' : short
-#                     }
-
-#                     RSI_LOW = low
-#                     RSI_HIGH = high
-                    
-#                     # do testing
-#                     print(f'\n({short}, {mid}, {long})')
-#                     print(f'\n[{low}, {high}]')
-#                     backtest.start(100, logic)
-#                     backtest.results()
-#                     t1 = time.time()
-#                     sys.stdout
-
-#                     sys.stdout = orig_stdout
-#                     count += 1
-#                     print(f'Rolling Averages:\t{short}, {mid}, {long}\nRSI:\t\t\t{low}-{high}\n{int(t1-t0)} secs, ({count}/{total})\n')
-#     import parse_results
-#     os.system('play -nq -t alsa synth {} sine {}'.format(0.5, 440))
 
 if __name__ == "__main__":
     backtest.start(100, logic)
