@@ -32,9 +32,6 @@ moving_av_lengths = {
 RSI_LOW     = 35
 RSI_HIGH    = 75
 
-# we hard-coded the fee for testing
-FEE = 0.002
-
 # Flags
 IN_FIRST_DIP = False
 
@@ -96,14 +93,12 @@ def logic(account, lookback):
             if longterm_is_high and not IN_FIRST_DIP:
                 if (not invested):
                     if (shortterm_moving_average > midterm_moving_average):
-                        account.buying_power = account.buying_power * (1-FEE)
                         account.enter_position('long', account.buying_power, lookback['close'][today])
                         IN_FIRST_DIP = True
 
                 else:
                     for position in account.positions:
                         account.close_position(position, 1, lookback['close'][today])
-                        account.buying_power = account.buying_power * (1-FEE)
                     IN_FIRST_DIP = False
 
             # -------------------- RSI indicator -------------------- 
@@ -111,14 +106,12 @@ def logic(account, lookback):
             rsi_score = rsi(lookback)[today]
 
             if RSI_LOW > rsi_score and not invested:
-                account.buying_power = account.buying_power * (1-FEE)
                 account.enter_position('long', account.buying_power, lookback['close'][today])
                 IN_FIRST_DIP = True
                 
             if RSI_HIGH < rsi_score and invested:
                 for position in account.positions:
                     account.close_position(position, 1, lookback['close'][today])
-                    account.buying_power = account.buying_power * (1-FEE)
                 IN_FIRST_DIP = False
 
             if longterm_is_low:
